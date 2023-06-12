@@ -1,8 +1,6 @@
-# nanoporeWorkflow
+# Schtappe
 
-NOTE: This is a fork to update the pipeline in 2023 at CDC.
-
-Welcome to Schtappe, what is going to be a suite of Nextflow workflows created to address a variety of CDC-EDLB Nanopore sequencing bioinformatics needs. Although Schtappe is intended for CDC users, the portable nature of Nextflow should allow for external users to easily adapt these workflows to their specific environments and/or needs. To facilitate that, all of the processes use Singularity containers.
+Welcome to Schtappe, what is going to be a suite of Nextflow workflows created to address a variety of CDC/NCEZID/DFWED/EDLB/NARST Nanopore sequencing bioinformatics needs. Although Schtappe is intended for CDC users, the portable nature of Nextflow should allow for external users to easily adapt these workflows to their specific environments and/or needs. To facilitate that, all of the processes use Singularity containers.
 
 As of 4/17/2023, the workflows currently available include:
 
@@ -10,25 +8,10 @@ As of 4/17/2023, the workflows currently available include:
 
 See [Future Plans](#future-plans) for information on updates to existing and in-development workflows.
 
-## TOC
-  * [Install](#install)
-  * [Workflows](#workflows)
-    * [Stylo](#stylo)
-      * [Overview](#overview)
-      * [Parameters](#parameters)
-      * [Processes](#processes)
-      * [Profiles](#profiles)
-      * [Usage](#usage)
-      * [Output](#output)
-  * [Future Plans](#future-plans)
-  * [Resources](#resources)
-  * [Etymology](#etymology)
-  * [Thanks](#thanks)
-
 ## Install
 Navigate to your home directory and git clone the repository.
 ```bash
-$ git clone https://github.com/ncezid-biome/nanoporeWorkflow
+$ git clone https://github.com/ncezid-narst/Schtappe.git
 ```
 You will need to install Nextflow if you don't already have it: https://www.nextflow.io/docs/latest/getstarted.html
 
