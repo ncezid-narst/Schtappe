@@ -5,9 +5,9 @@ Welcome to Schtappe, what is going to be a suite of Nextflow workflows created t
 As of 6/12/2023, the workflows currently available include:
 
 * Stylo - Nanopore assembly workflow from basecalled reads to polished assembly plus assembly QC, metrics, and plasmid replicon detection
- * https://github.com/ncezid-narst/stylo
+  * https://github.com/ncezid-narst/stylo
 * Geteilt - NARST workflow built in nextflow. Pulls paired short-read data from NCBI using SRRs, and runs through read metrics, coverage cutoff, assembly, and AR, plasmid, and point-mutation screening
- * https://github.com/ncezid-narst/geteilt
+  * https://github.com/ncezid-narst/geteilt
 
 ## Future plans
 Stylo: 
