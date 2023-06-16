@@ -2,10 +2,12 @@
 
 Welcome to Schtappe, what is going to be a suite of Nextflow workflows created to address a variety of CDC/NCEZID/DFWED/EDLB/NARST Nanopore sequencing bioinformatics needs. Although Schtappe is intended for CDC users, the portable nature of Nextflow should allow for external users to easily adapt these workflows to their specific environments and/or needs. To facilitate that, all of the processes use Singularity containers.
 
-As of 6/12/2023, the workflows currently available include:
+As of 6/16/2023, the workflows currently available include:
 
 * Stylo - Nanopore assembly workflow from basecalled reads to polished assembly plus assembly QC, metrics, and plasmid replicon detection
   * https://github.com/ncezid-narst/stylo
+* Messer - Post-assembly small plasmid recovery and size correction workflow for nanopore sequence data
+  * https://github.com/ncezid-narst/messer 
 * Geteilt - NARST workflow built in nextflow. Pulls paired short-read data from NCBI using SRRs, and runs through read metrics, coverage cutoff, assembly, and AR, plasmid, and point-mutation screening
   * https://github.com/ncezid-narst/geteilt
 
