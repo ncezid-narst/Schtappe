@@ -24,9 +24,6 @@ Geteilt:
 * BATS testing
 * CI
 
-Workflows in development:
-* Messer: ONT small plasmid recovery workflow to individually fix and assemble plasmid contigs
-
 ### Nextflow:
 If you're unfamiliar with Nextflow or would like to just learn more, consider doing these free trainings found here: https://training.nextflow.io/
 The Nextflow documentation is super helpful as well, especially to learn more about what process directives and profile configurations you can include in your local copy of `stylo.config`. An entire section is dedicated to just containers which should help troubleshoot any issues with Singularity or assist in using Docker instead. Nextflow documentation can be found here: https://www.nextflow.io/docs/latest/index.html
