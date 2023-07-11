@@ -19,7 +19,6 @@ Stylo:
 * CI
 
 Geteilt:
-* Support for local reads (feeding a path to a directory with paired reads)
 * Update CG-PIPELINE with fasten container
 * BATS testing
 * CI
